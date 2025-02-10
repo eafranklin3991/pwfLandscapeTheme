@@ -1,0 +1,14 @@
+Package: pwfLandscapeTheme
+Type: Package
+Title: Set Theme for Graphs
+Version: 0.1.0
+Author: Teagan Woodson
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Imports:
+    ggplot2,
+    scales
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.2.3
