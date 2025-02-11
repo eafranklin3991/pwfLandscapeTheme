@@ -50,8 +50,8 @@ custom_theme <- function(){ theme(
 #' @return A ggplot2 color scale.
 #' @export
 custom_colors <- function(){scale_color_manual(values = c(
-  "#0F9ED5", "#E97132", "#ADADAD", "#215C98",
-  "#A10082", "#08573D", "#EED000", "#E20177"
+  "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
+  "#7bccc4", "#022f58"
 ))}
 
 #' Custom fill scale for scatterplots (if needed for filled points or areas)
@@ -59,8 +59,8 @@ custom_colors <- function(){scale_color_manual(values = c(
 #' @return A ggplot2 fill scale.
 #' @export
 custom_fill <- function(){scale_fill_manual(values = c(
-  "#0F9ED5", "#E97132", "#ADADAD", "#215C98",
-  "#A10082", "#08573D", "#EED000", "#E20177"
+  "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
+  "#7bccc4", "#022f58"
 ))}
 
 
