@@ -64,7 +64,7 @@ custom_fill <- function(){scale_fill_manual(values = c(
 ))}
 
 
-#' Custom Theme for Horizontal Bar Charts
+#' Custom Theme for Horizontal Bar Graphs
 #'
 #' @return A ggplot2 theme object optimized for horizontal bar charts.
 #' @export
