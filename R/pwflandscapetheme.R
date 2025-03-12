@@ -105,3 +105,12 @@ horizontal_bar_theme <- function(){theme(
   plot.subtitle.position = "plot"
 )}
 
+#' Custom points layer for square markers
+#'
+#' @return A ggplot2 layer for square-shaped points.
+#' @export
+custom_points <- function(size = 3) {
+  list(
+    geom_point(shape = 15, size = size)  # Square markers
+  )
+}
