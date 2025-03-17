@@ -63,7 +63,7 @@ custom_fill <- function(){scale_fill_manual(values = c(
   "#7bccc4", "#022f58"
 ))}
 
-
+"#595959"
 #' Custom Theme for Horizontal Bar Graphs
 #'
 #' @return A ggplot2 theme object optimized for horizontal bar charts.
@@ -107,10 +107,11 @@ horizontal_bar_theme <- function(){theme(
 
 #' Custom points layer for square markers
 #'
+#' This function creates a ggplot2 layer with square-shaped points.
+#'
+#' @param size Numeric value for point size (default is 3).
 #' @return A ggplot2 layer for square-shaped points.
 #' @export
 custom_points <- function(size = 3) {
-  list(
-    geom_point(shape = 15, size = size)  # Square markers
-  )
+  geom_point(shape = 15, size = size)  # Square markers
 }
