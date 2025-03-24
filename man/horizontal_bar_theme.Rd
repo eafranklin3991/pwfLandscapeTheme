@@ -2,7 +2,7 @@
 % Please edit documentation in R/pwflandscapetheme.R
 \name{horizontal_bar_theme}
 \alias{horizontal_bar_theme}
-\title{Custom Theme for Horizontal Bar Charts}
+\title{Custom Theme for Horizontal Bar Graphs}
 \usage{
 horizontal_bar_theme()
 }
@@ -10,5 +10,5 @@ horizontal_bar_theme()
 A ggplot2 theme object optimized for horizontal bar charts.
 }
 \description{
-Custom Theme for Horizontal Bar Charts
+Custom Theme for Horizontal Bar Graphs
 }

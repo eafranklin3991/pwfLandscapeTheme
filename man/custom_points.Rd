@@ -4,7 +4,7 @@
 \alias{custom_points}
 \title{Custom points layer for square markers}
 \usage{
-custom_points(size = 3)
+custom_points(mapping = NULL, data = NULL, size = 3, ...)
 }
 \arguments{
 \item{size}{Numeric value for point size (default is 3).}

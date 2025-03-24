@@ -112,6 +112,7 @@ horizontal_bar_theme <- function(){theme(
 #' @param size Numeric value for point size (default is 3).
 #' @return A ggplot2 layer for square-shaped points.
 #' @export
-custom_points <- function(size = 3) {
-  geom_point(shape = 15, size = size)  # Square markers
+custom_points <- function(mapping = NULL, data = NULL, size = 3, ...) {
+  geom_point(mapping = mapping, data = data, shape = 15, size = size, ...)
 }
+
