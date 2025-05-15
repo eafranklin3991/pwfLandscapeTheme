@@ -18,7 +18,7 @@ pwf_theme <- function() { theme(
   axis.title.y = element_text(color = "#000000", size = 14, family = "Arial",
                               margin = margin(t = 0, r = 10, b = 0, l = 0)),
   axis.title.y.right = element_text(color = "#000000", size = 14, family = "Arial",
-                                    margin = margin(t = 0, r = 10, b = 0, l = 0)),
+                                    margin = margin(t = 0, r = 0, b = 0, l = 10)),
 
   # Axis text (tick labels) styles
   axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
