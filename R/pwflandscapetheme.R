@@ -41,8 +41,7 @@ pwf_theme <- function(){ theme(
   legend.text = element_text(color = "#595959", size = 14, family = "Arial"),
 
   # Set title and subtitle alignment to top center
-  plot.title.position = "plot",
-  plot.subtitle.position = "plot"
+  plot.title.position = "plot"
 )}
 
 #' Custom color scale for scatterplots
