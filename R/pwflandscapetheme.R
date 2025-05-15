@@ -8,7 +8,7 @@
 #'
 #' @return A ggplot2 theme object.
 #' @export
-custom_theme <- function(){ theme(
+pwf_theme <- function(){ theme(
   # Title and subtitle styles (centered at top)
   plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
   plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
@@ -49,7 +49,7 @@ custom_theme <- function(){ theme(
 #'
 #' @return A ggplot2 color scale.
 #' @export
-custom_colors <- function(){scale_color_manual(values = c(
+pwf_colors <- function(){scale_color_manual(values = c(
   "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
   "#7bccc4", "#022f58"
 ))}
@@ -58,7 +58,7 @@ custom_colors <- function(){scale_color_manual(values = c(
 #'
 #' @return A ggplot2 fill scale.
 #' @export
-custom_fill <- function(){scale_fill_manual(values = c(
+pwf_fill <- function(){scale_fill_manual(values = c(
   "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
   "#7bccc4", "#022f58"
 ))}
@@ -68,7 +68,7 @@ custom_fill <- function(){scale_fill_manual(values = c(
 #'
 #' @return A ggplot2 theme object optimized for horizontal bar charts.
 #' @export
-horizontal_bar_theme <- function(){theme(
+pwf_horizontal_bar_theme <- function(){theme(
   # Title and subtitle styles (centered at top)
   plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
   plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
@@ -112,7 +112,7 @@ horizontal_bar_theme <- function(){theme(
 #' @param size Numeric value for point size (default is 3).
 #' @return A ggplot2 layer for square-shaped points.
 #' @export
-custom_points <- function(mapping = NULL, data = NULL, size = 3, ...) {
+pwf_points <- function(mapping = NULL, data = NULL, size = 3, ...) {
   geom_point(mapping = mapping, data = data, shape = 15, size = size, ...)
 }
 
