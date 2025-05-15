@@ -21,7 +21,7 @@ pwf_theme <- function() { theme(
   axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
   axis.text.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
-  # Only horizontal gridlines with specific thickness and color
+  # No gridlines
   panel.grid.major.x = element_blank(),
   panel.grid.major.y = element_blank(),
   panel.grid.minor = element_blank(),
@@ -51,8 +51,12 @@ pwf_theme <- function() { theme(
 #' @export
 pwf_colors <- function() {
   scale_color_manual(values = c(
-  "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
-  "#7bccc4", "#022f58"
+  "#075d9a",
+  "#bae4bc",
+  "#43a2ca",
+  "#2685bb",
+  "#7bccc4",
+  "#022f58"
   ))
   }
 
@@ -62,8 +66,12 @@ pwf_colors <- function() {
 #' @export
 pwf_fill <- function() {
   scale_fill_manual(values = c(
-  "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
-  "#7bccc4", "#022f58"
+  "#075d9a",
+  "#bae4bc",
+  "#43a2ca",
+  "#2685bb",
+  "#7bccc4",
+  "#022f58"
   ))
   }
 
@@ -85,8 +93,8 @@ pwf_horizontal_bar_theme <- function() {
   axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
   axis.text.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
-  # Only horizontal gridlines with specific thickness and color
-  panel.grid.major.x = element_line(color = "#E6E6E6", size = 0.5),
+  # No gridlines
+  panel.grid.major.x = element_blank(),
   panel.grid.major.y = element_blank(),
   panel.grid.minor = element_blank(),
 
