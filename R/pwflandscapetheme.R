@@ -47,8 +47,8 @@ pwf_theme <- function() { theme(
   plot.title.position = "plot",
 
   # Strip styles
-  strip.background.x = element_rect(fill = NULL, color = NA),
-  strip.background.y = element_rect(fill = NULL, color = NA),
+  strip.background.x = element_rect(fill = "transparent", color = NA),
+  strip.background.y = element_rect(fill = "transparent", color = NA),
   strip.text.x = element_text(size = 14),
   strip.text.y = element_text(size = 14)
   )
