@@ -10,16 +10,16 @@
 #' @export
 pwf_theme <- function() { theme(
   # Title and subtitle styles (centered at top)
-  plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
-  plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
+  plot.title = element_text(color = "#000000", size = 18, family = "Arial", face = "bold", hjust = 0.5),
+  plot.subtitle = element_text(color = "#000000", size = 14, family = "Arial", face = "bold", hjust = 0.5),
 
   # Axis title styles
-  axis.title.x = element_text(color = "#595959", size = 14, family = "Arial"),
-  axis.title.y = element_text(color = "#595959", size = 14, family = "Arial"),
+  axis.title.x = element_text(color = "#000000", size = 14, family = "Arial"),
+  axis.title.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Axis text (tick labels) styles
-  axis.text.x = element_text(color = "#595959", size = 14, family = "Arial"),
-  axis.text.y = element_text(color = "#595959", size = 14, family = "Arial"),
+  axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
+  axis.text.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Only horizontal gridlines with specific thickness and color
   panel.grid.major.x = element_blank(),
@@ -38,7 +38,7 @@ pwf_theme <- function() { theme(
   # Legend styles
   legend.position = "bottom",
   legend.justification = "center",
-  legend.text = element_text(color = "#595959", size = 14, family = "Arial"),
+  legend.text = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Set title alignment to top center
   plot.title.position = "plot"
@@ -74,16 +74,16 @@ pwf_fill <- function() {
 pwf_horizontal_bar_theme <- function() {
   theme(
   # Title and subtitle styles (centered at top)
-  plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
-  plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
+  plot.title = element_text(color = "#000000", size = 18, family = "Arial", face = "bold", hjust = 0.5),
+  plot.subtitle = element_text(color = "#000000", size = 14, family = "Arial", face = "bold", hjust = 0.5),
 
   # Axis title styles
-  axis.title.x = element_text(color = "#595959", size = 14, family = "Arial"),
-  axis.title.y = element_text(color = "#595959", size = 14, family = "Arial"),
+  axis.title.x = element_text(color = "#000000", size = 14, family = "Arial"),
+  axis.title.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Axis text (tick labels) styles
-  axis.text.x = element_text(color = "#595959", size = 14, family = "Arial"),
-  axis.text.y = element_text(color = "#595959", size = 14, family = "Arial"),
+  axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
+  axis.text.y = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Only horizontal gridlines with specific thickness and color
   panel.grid.major.x = element_line(color = "#E6E6E6", size = 0.5),
@@ -102,7 +102,7 @@ pwf_horizontal_bar_theme <- function() {
   # Legend styles
   legend.position = "bottom",
   legend.justification = "center",
-  legend.text = element_text(color = "#595959", size = 14, family = "Arial"),
+  legend.text = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Set title and subtitle alignment to top center
   plot.title.position = "plot"
