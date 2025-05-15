@@ -8,7 +8,7 @@
 #'
 #' @return A ggplot2 theme object.
 #' @export
-pwf_theme <- function(){ theme(
+pwf_theme <- function() { theme(
   # Title and subtitle styles (centered at top)
   plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
   plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
@@ -40,34 +40,39 @@ pwf_theme <- function(){ theme(
   legend.justification = "center",
   legend.text = element_text(color = "#595959", size = 14, family = "Arial"),
 
-  # Set title and subtitle alignment to top center
+  # Set title alignment to top center
   plot.title.position = "plot"
-)}
+  )
+}
 
 #' Custom color scale for scatterplots
 #'
 #' @return A ggplot2 color scale.
 #' @export
-pwf_colors <- function(){scale_color_manual(values = c(
+pwf_colors <- function() {
+  scale_color_manual(values = c(
   "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
   "#7bccc4", "#022f58"
-))}
+  ))
+  }
 
 #' Custom fill scale for scatterplots (if needed for filled points or areas)
 #'
 #' @return A ggplot2 fill scale.
 #' @export
-pwf_fill <- function(){scale_fill_manual(values = c(
+pwf_fill <- function() {
+  scale_fill_manual(values = c(
   "#075d9a", "#bae4bc", "#43a2ca", "#2685bb",
   "#7bccc4", "#022f58"
-))}
+  ))
+  }
 
-"#595959"
-#' Custom Theme for Horizontal Bar Graphs
+#' Custom theme for horizontal bar graphs
 #'
 #' @return A ggplot2 theme object optimized for horizontal bar charts.
 #' @export
-pwf_horizontal_bar_theme <- function(){theme(
+pwf_horizontal_bar_theme <- function() {
+  theme(
   # Title and subtitle styles (centered at top)
   plot.title = element_text(color = "#595959", size = 18, family = "Arial", face = "bold", hjust = 0.5),
   plot.subtitle = element_text(color = "#595959", size = 14, family = "Arial", face = "bold", hjust = 0.5),
@@ -100,18 +105,24 @@ pwf_horizontal_bar_theme <- function(){theme(
   legend.text = element_text(color = "#595959", size = 14, family = "Arial"),
 
   # Set title and subtitle alignment to top center
-  plot.title.position = "plot",
-  plot.subtitle.position = "plot"
-)}
+  plot.title.position = "plot"
+  )
+  }
 
 #' Custom points layer for square markers
 #'
 #' This function creates a ggplot2 layer with square-shaped points.
 #'
-#' @param size Numeric value for point size (default is 3).
+#' @param mapping Aesthetic mappings.
+#' @param data The data to be displayed.
+#' @param size Point size (default is 3).
+#' @param ... Additional arguments passed to `geom_point()`.
+#'
 #' @return A ggplot2 layer for square-shaped points.
 #' @export
 pwf_points <- function(mapping = NULL, data = NULL, size = 3, ...) {
   geom_point(mapping = mapping, data = data, shape = 15, size = size, ...)
 }
+
+
 
