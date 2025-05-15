@@ -44,7 +44,13 @@ pwf_theme <- function() { theme(
   legend.text = element_text(color = "#000000", size = 14, family = "Arial"),
 
   # Set title alignment to top center
-  plot.title.position = "plot"
+  plot.title.position = "plot",
+
+  # Strip styles
+  strip.background.x = element_rect(fill = NULL, color = NA),
+  strip.background.y = element_rect(fill = NULL, color = NA),
+  strip.text.x = element_text(size = 14),
+  strip.text.y = element_text(size = 14)
   )
 }
 
