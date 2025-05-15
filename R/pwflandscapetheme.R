@@ -23,7 +23,7 @@ pwf_theme <- function() { theme(
 
   # Only horizontal gridlines with specific thickness and color
   panel.grid.major.x = element_blank(),
-  panel.grid.major.y = element_line(color = "#E6E6E6", size = 0.5),
+  panel.grid.major.y = element_blank(),
   panel.grid.minor = element_blank(),
 
   # Remove background for a clean look
