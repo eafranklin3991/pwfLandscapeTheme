@@ -14,8 +14,10 @@ pwf_theme <- function() { theme(
   plot.subtitle = element_text(color = "#000000", size = 14, family = "Arial", face = "bold", hjust = 0.5),
 
   # Axis title styles
-  axis.title.x = element_text(color = "#000000", size = 14, family = "Arial"),
-  axis.title.y = element_text(color = "#000000", size = 14, family = "Arial"),
+  axis.title.x = element_text(color = "#000000", size = 14, family = "Arial",
+                              margin = margin(t = 10, r = 0, b = 0, l = 0)),
+  axis.title.y = element_text(color = "#000000", size = 14, family = "Arial",
+                              margin = margin(t = 10, r = 0, b = 0, l = 0)),
 
   # Axis text (tick labels) styles
   axis.text.x = element_text(color = "#000000", size = 14, family = "Arial"),
