@@ -60,12 +60,15 @@ pwf_theme <- function() { theme(
 #' @export
 pwf_colors <- function() {
   scale_color_manual(values = c(
-  "#075d9a",
-  "#bae4bc",
-  "#43a2ca",
-  "#2685bb",
-  "#7bccc4",
-  "#022f58"
+    "#075d9a",
+    "#bae4bc",
+    "#43a2ca",
+    "#2685bb",
+    "#7bccc4",
+    "#022f58",
+    "#1f78b4",
+    "#a6cee3",
+    "#4daf4a"
   ))
   }
 
@@ -75,14 +78,17 @@ pwf_colors <- function() {
 #' @export
 pwf_fill <- function() {
   scale_fill_manual(values = c(
-  "#075d9a",
-  "#bae4bc",
-  "#43a2ca",
-  "#2685bb",
-  "#7bccc4",
-  "#022f58"
+    "#075d9a",
+    "#bae4bc",
+    "#43a2ca",
+    "#2685bb",
+    "#7bccc4",
+    "#022f58",
+    "#1f78b4",
+    "#a6cee3",
+    "#4daf4a"
   ))
-  }
+}
 
 #' Custom theme for horizontal bar graphs
 #'
