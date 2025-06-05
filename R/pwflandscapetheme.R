@@ -54,7 +54,7 @@ pwf_theme <- function() { theme(
   )
 }
 
-#' Custom color scale for scatterplots
+#' Custom color scale
 #'
 #' @return A ggplot2 color scale.
 #' @export
@@ -72,7 +72,7 @@ pwf_colors <- function() {
   ))
   }
 
-#' Custom fill scale for scatterplots (if needed for filled points or areas)
+#' Custom fill scale
 #'
 #' @return A ggplot2 fill scale.
 #' @export
@@ -87,6 +87,21 @@ pwf_fill <- function() {
     "#1f78b4",
     "#a6cee3",
     "#4daf4a"
+  ))
+}
+
+# Custom fill scale where colors are in reverse order
+pwf_fill_reverse <- function() {
+  scale_fill_manual(values = c(
+    "#4daf4a",
+    "#a6cee3",
+    "#1f78b4",
+    "#022f58",
+    "#7bccc4",
+    "#2685bb",
+    "#43a2ca",
+    "#bae4bc",
+    "#075d9a"
   ))
 }
 
