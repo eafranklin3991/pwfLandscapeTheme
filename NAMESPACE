@@ -1,3 +1,3 @@
-export(pwf_theme, pwf_colors, pwf_fill, pwf_horizontal_bar_theme, pwf_points)
+export(pwf_theme, pwf_colors, pwf_fill, pwf_fill_reverse, pwf_horizontal_bar_theme, pwf_points)
 import(ggplot2)
 import(scales)
