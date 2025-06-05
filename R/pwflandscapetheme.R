@@ -93,10 +93,6 @@ pwf_fill <- function() {
 # Custom fill scale where colors are in reverse order
 pwf_fill_reverse <- function() {
   scale_fill_manual(values = c(
-    "#4daf4a",
-    "#a6cee3",
-    "#1f78b4",
-    "#022f58",
     "#7bccc4",
     "#2685bb",
     "#43a2ca",
